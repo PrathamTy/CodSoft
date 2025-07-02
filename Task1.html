@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratham's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: auto;
+            padding: 2rem;
+            background-color: white;
+            margin-top: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        .about-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li::before {
+            content: "\2022 ";
+            color: #2980b9;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 4px;
+            margin-top: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Pratham Tyagi</h1>
+        <p>Web Developer | Problem Solver | Learner</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Me.jpg" alt="Pratham Tyagi" class="about-img">
+        <p>Hello! I'm Pratham, a passionate web developer with a strong foundation in HTML, CSS, and JavaScript. I enjoy building responsive websites and solving real-world coding challenges. I also actively participate in competitive programming.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React & Node.js</li>
+            <li>Competitive Programming (1400+ on Codeforces)</li>
+            <li>Data Structures and Algorithms</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Messenger</h3>
+            <h4>Tech Stack:  Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher</h4>
+            <p> • Developed a full-stack web application using Next.js serving a REST API with React/Next.js as the frontend.</p>
+            <p> • Implemented NextAuth to authenticate users for login and signup</p>
+            <p> • Added Pusher for realtime data and functionality to messenger.</p>
+        </div>
+        <div class="project">
+            <h3>Spotify</h3>
+            <h4>Tech Stack:  MongoDB, Node.js, Express.js, React.js, Cloudinary, Clerk</h4>
+            <p> • Developed a full-stack web application using Node and Express serving a REST API with React as the frontend.</p>
+            <p> • Implemented NextAuth to authenticate users for login and signup</p>
+            <p> • Used Cloudinary to store images and songs data in the cloud.</p>
+            <p> • Implemented Admin Panel to access/create songs.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="#">Download My Resume (PDF)</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: pratham.tyagi@example.com</p>
+        <p>Phone: +91-XXXXXXXXXX</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pratham Tyagi. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
